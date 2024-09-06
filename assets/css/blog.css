@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  border-top: 3.1px solid black;
+  border-bottom: 3.1px solid black;
+  padding: .2rem .4rem;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 7px;
+  margin: 7px;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  margin: 1px;
+}
+
+h4:hover {
+  background-color: lightskyblue;  
+}
+
+ul {
+  font-family: Arial, sans-serif;
+  border-top: 1px black;
+  border: 1px black;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+li {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+li:hover {
+  background-color: lightskyblue;  
+}
+p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+.card { 
+  float: float:center;
+  width: 96%;
+  height: 80px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.goBack {
+    /*position:absolute; top:20px; right:100px;*/
+    width: 40px;
+    height: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    background-color: black; 
+    border-radius: 25px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  ul {
+    border-top: 1px white;
+    border: 1px white;
+  }
+  section {
+    border: 1px solid white;
+  }
+}
+.hdr {
+  width: 98%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-item: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  h2 {
+    margin-top: -5px;
+  }
+}
+.btn {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-item: center;
+  a {
+  margin-right: 5px;
+  }
+button {  
+    width: 100px;
+    height: 30px;
+    radius: 25px;
+    background-color: black;
+    color: white;
+  }    
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  inset: 2px;
+  top: calc(98% - 1rem);
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  
+}
+
+
